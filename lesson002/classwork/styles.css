@@ -1,0 +1,30 @@
+/*  */
+
+h5 {
+        color:blue;
+}
+
+/* .xxx - the selector by a class xxx*/
+.actor-description {
+        color:darkgoldenrod;
+        font-size: 24px;
+        font-weight: bold; 
+}
+
+.actor-description-bp {
+        color:red;
+}
+
+/* #xxx - the selector by id */
+#description-johny-depp {
+        color:blueviolet;
+}
+
+#root {
+        height: 100%;
+        background-color:beige;
+}
+
+html, body {
+        height: 100%; /* makes the height 100% of the outer container */
+}
