@@ -31,31 +31,25 @@ body {
 * {
   box-sizing: border-box;
 }
-/* Внутренний отступ: сверху и снизу - 15px,
-слева-справа - 20px
-Границы: ширина - 1px, пунктиром, красная
-Внутренний отступ: 40px
-Ширина: 300px
-Высота: 200px */
 
 .animals {
   min-width: 300px;
+  max-width: fit-content;
   min-height: 200px;
   max-height: fit-content;
-  max-width: fit-content;
   padding: 15px 20px;
   border: 1px dotted red;
   margin: 40px;
   background-color: white;
 }
 
-#tiger-img {
-        width: 100%;
-        height: 100%;
+.tiger_img {
+  width: 100%;
+  height: 100%;
 }
 
-.img-control {
-        width: 150px;
-        height: 100px;
-        margin-bottom: 20px;
+.image_control {
+  width: 200px;
+  height: 150px;
+  margin-bottom: 20px;
 }
