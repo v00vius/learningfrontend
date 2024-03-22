@@ -1,0 +1,73 @@
+/* html, body {
+        height: 100%;
+} */
+
+/* #root {
+        background-color: rgb(48, 34, 34);
+        height: 100%;
+} */
+html {
+        background-color: black;
+        color: cornflowerblue;
+}
+
+.style2 {
+        color: darkgrey;
+}
+
+.style1 {
+        color: darkorange;
+}
+
+#main {
+        min-height: 500px        
+}
+
+#header, #footer {
+        min-height: 40px;
+        color: dimgray;
+}
+
+/* 1 */
+#photo-and-info {
+        min-height: 400px;
+}
+
+#photo {
+        float: left;
+        width: 30%;
+}
+
+#info {
+        float: right;
+        width: 70%;
+}
+
+#my-name {
+        font-size: 32px;
+}
+
+#info1 {
+        font-size: 20px;
+}
+
+/* 2 */
+
+#detailed-info {
+        min-height: 200px;
+}
+
+#pro {
+        float: left;
+        width: 50%;
+}
+
+#hobby {
+        float: right;
+        width: 50%;
+}
+
+/* 3 */
+#education {
+        min-height: 40px;
+}

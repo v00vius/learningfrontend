@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <title>Vladimir Gavrilyuk</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" type="text/css" />
+  </head>
+  <body>
+    <div id="root">
+      <header>
+        <div id="header">
+          <p id="now"></p>
+        </div>
+      </header>
+      <main>
+        <div id="main">
+          <div id="photo-and-info">
+            <div id="photo">
+              <img id="p001" src="images/p001.PNG" />
+            </div>
+            <div id="info">
+              <p id="my-name">- I'M VLADIMIR GAVRILYUK.</p>
+              <p id="info1" class="style1">C++, JAVA DEVELOPER</p>
+              <p class="style2">
+                <i
+                  >"The greatest mistake you can make in life is continually
+                  fearing that you'll make one."</i
+                >
+                <br />- Elbert Hubbard
+              </p>
+            </div>
+          </div>
+          <div id="detailed-info">
+            <div id="pro">
+              <h3>Professional interests</h3>
+              <ul class="style1">
+                <li>Cloud technologies</li>
+                <li>Data processing</li>
+                <li>C++, Java development, JavaScript</li>
+                <li>
+                  Client/server, network applications development, distributed
+                  applications
+                </li>
+                <li>Multithreaded applications development</li>
+                <li>
+                  System integration, FreeBSD, Linux, ZFS, cluster technologies
+                </li>
+              </ul>
+            </div>
+            <div id="hobby">
+              <h3>Lifestyle, hobbies</h3>
+              <p class="style2">
+                "When you are going wilderness for a week, you are granted the
+                luxury of prcious time to think"
+              </p>
+              <ul class="style1">
+                <ul>
+                  <li>Trail running</li>
+                  <li>Wilderness hiking, backpaking</li>
+                  <li>Wintersports: mountain skiing, cross country skiing</li>
+                  <li>Ride a bicycle</li>
+                  <li>Avia simulators, game development</li>
+                </ul>
+              </ul>
+            </div>
+          </div>
+          <div id="education">
+            <h3>Education</h3>
+            <p class="style1">
+              Master's degree of Computer Science (The Department of Computer
+              Aided Design, CAD in electronics)
+            </p>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div id="footer">
+          <p>[About this site]</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+  <script>
+    document.getElementById("now").innerHTML = Date();
+  </script>
+</html>
