@@ -1,0 +1,79 @@
+/*  styles.css */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  /* height: 100%; */
+  margin: 0;
+}
+
+#root {
+  height: 100%;
+  background-color: rgb(58, 56, 54);
+  padding: 10px;
+}
+
+.car {
+  font-size: 16px;
+
+  width: 400px;
+  height: 500px;
+  border-width: 2px;
+  padding: 20px;
+
+  margin: 15px;
+  background-color:cornflowerblue;
+}
+
+.border-a {
+  border-style: inset;
+  border-color: yellowgreen;
+}
+
+.border-b {
+  border-style: dotted;
+  border-color:chocolate;
+}
+
+.border-c {
+  border-style: dashed double;
+  border-color:brown;
+}
+
+/* 
+.car {
+  font-size: 16px;
+
+  min-width: 192px;
+  max-width: fit-content;
+
+  min-height: 144px;
+  max-height: fit-content;
+
+  padding: 15px 20px;
+  border: 1px dotted red;
+  margin: 40px;
+  background-color:cornflowerblue;
+}
+ */
+
+.image_parent {
+  width: fit-content;
+  /* width: 768px; */
+  /* height: 575px; */
+  margin-bottom: 20px;
+}
+
+/* .image_parent {
+  width: 768px;
+  height: 575px;
+  margin-bottom: 20px;
+} */
+
+.image_specific {
+  width: 100%;
+  height: auto;
+}
